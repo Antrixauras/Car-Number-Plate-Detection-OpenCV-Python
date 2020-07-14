@@ -6,9 +6,6 @@ color=(255,0,255)
 img=cv2.imread(path)
 frameWidth=360
 frameHeight=360
-# cap.set(3,frameWidth) #set width of screen
-# cap.set(4,frameHeight) #set height of screen
-# cap.set(10,130)
 while True:
     # success,img=cap.read()
     imgGray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
