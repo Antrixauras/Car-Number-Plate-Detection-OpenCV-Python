@@ -1,5 +1,5 @@
 import cv2 
-numberPlateCascade=cv2.CascadeClassifier("C:/Users/AMAN/Desktop/haarcascade_russian_plate_number.xml")
+numberPlateCascade=cv2.CascadeClassifier("haarcascade_russian_plate_number.xml")
 path='C:/Users/AMAN/Desktop/car.jpg'
 minArea=500
 color=(255,0,255)
